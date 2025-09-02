@@ -1,0 +1,44 @@
+    1  git --version
+    2  git --version
+    3  mkdir projects
+    4  cd ~/projects
+    5  history -c && rm ~/.bash_history
+    6  --c && rm ~/.bash_history
+    7  -c && rm ~/.bash_history
+    8  cd
+    9  cd ~/projects
+   10   -c && rm ~/.bash_history
+   11  git config --global user.name "Ваше Ім’я"\ngit config --global user.email "your_email@example.com"\n
+   12  git config --global user.name "Daniil"\ngit config --global user.email "daniilkasianov@icloud.com"\n
+   13  git config --list\n
+   14  history -c && rm ~/.bash_history\n
+   15  git config --global user.name "Daniil-coder-svg"\ngit config --global user.email "daniilkasianov@icloud.com"\n
+   16  git config --list\n
+   17  git clone https://github.com/<Daniil-coder-svg>/HW_10.git\n
+   18  git clone https://github.com/Daniil-coder-svg/HW_10.git\n
+   19  cd HW_10
+   20  touch text_ignore.txt\n
+   21  nano .gitignore\n
+   22  git status
+   23  git add
+   24  git add.
+   25  git commit -m "Додано text_ignore.txt у .gitignore"
+   26  # додати всі зміни у staging\ngit add .\n\n# зробити commit\ngit commit -m "Додано text_ignore.txt у .gitignore"\n
+   27  touch main_test.txt\ngit add .\ngit commit -m "Додано порожній файл main_test.txt"\n
+   28  git checkout -b develop\n
+   29  touch develop_test.txt\n
+   30  type nul > develop_test.txt\n
+   31  git add .\n
+   32  git commit -m "Add empty develop_test.txt file"\n
+   33  just a small change\n
+   34  echo "just a small change" >> develop_test.txt\n
+   35  echo "just a small change" >> develop_test.txt\n
+   36  cat develop_test.txt\n
+   37  git status\ngit add .\ngit commit -m "Add a small change to develop_test.txt"\n
+   38  git status\n
+   39  git checkout main\n
+   40  git checkout master\n
+   41  git checkout main
+   42  git merge develop\n
+   43  git add .\ngit commit\n
+   44  git log --oneline --graph --all\n
